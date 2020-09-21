@@ -1,0 +1,1498 @@
+type: distributed
+distribution:
+    training: 216
+    validation: 54
+    testing: 129
+path:
+    root: ''
+    camelyon16: ''
+    stamp: ''
+data:
+    training:
+        negative/breast/rumc:
+            - image: '{root}/{camelyon16}/images/normal_001.tif'
+              mask: '{root}/{camelyon16}/masks/normal_001_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_001_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_002.tif'
+              mask: '{root}/{camelyon16}/masks/normal_002_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_002_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_003.tif'
+              mask: '{root}/{camelyon16}/masks/normal_003_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_003_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_004.tif'
+              mask: '{root}/{camelyon16}/masks/normal_004_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_004_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_005.tif'
+              mask: '{root}/{camelyon16}/masks/normal_005_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_005_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_006.tif'
+              mask: '{root}/{camelyon16}/masks/normal_006_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_006_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_007.tif'
+              mask: '{root}/{camelyon16}/masks/normal_007_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_007_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_008.tif'
+              mask: '{root}/{camelyon16}/masks/normal_008_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_008_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_009.tif'
+              mask: '{root}/{camelyon16}/masks/normal_009_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_009_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_010.tif'
+              mask: '{root}/{camelyon16}/masks/normal_010_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_010_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_012.tif'
+              mask: '{root}/{camelyon16}/masks/normal_012_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_012_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_013.tif'
+              mask: '{root}/{camelyon16}/masks/normal_013_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_013_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_014.tif'
+              mask: '{root}/{camelyon16}/masks/normal_014_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_014_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_015.tif'
+              mask: '{root}/{camelyon16}/masks/normal_015_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_015_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_017.tif'
+              mask: '{root}/{camelyon16}/masks/normal_017_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_017_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_018.tif'
+              mask: '{root}/{camelyon16}/masks/normal_018_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_018_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_019.tif'
+              mask: '{root}/{camelyon16}/masks/normal_019_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_019_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_020.tif'
+              mask: '{root}/{camelyon16}/masks/normal_020_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_020_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_021.tif'
+              mask: '{root}/{camelyon16}/masks/normal_021_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_021_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_022.tif'
+              mask: '{root}/{camelyon16}/masks/normal_022_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_022_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_024.tif'
+              mask: '{root}/{camelyon16}/masks/normal_024_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_024_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_025.tif'
+              mask: '{root}/{camelyon16}/masks/normal_025_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_025_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_027.tif'
+              mask: '{root}/{camelyon16}/masks/normal_027_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_027_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_028.tif'
+              mask: '{root}/{camelyon16}/masks/normal_028_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_028_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_029.tif'
+              mask: '{root}/{camelyon16}/masks/normal_029_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_029_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_030.tif'
+              mask: '{root}/{camelyon16}/masks/normal_030_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_030_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_032.tif'
+              mask: '{root}/{camelyon16}/masks/normal_032_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_032_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_034.tif'
+              mask: '{root}/{camelyon16}/masks/normal_034_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_034_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_036.tif'
+              mask: '{root}/{camelyon16}/masks/normal_036_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_036_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_039.tif'
+              mask: '{root}/{camelyon16}/masks/normal_039_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_039_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_040.tif'
+              mask: '{root}/{camelyon16}/masks/normal_040_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_040_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_042.tif'
+              mask: '{root}/{camelyon16}/masks/normal_042_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_042_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_043.tif'
+              mask: '{root}/{camelyon16}/masks/normal_043_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_043_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_044.tif'
+              mask: '{root}/{camelyon16}/masks/normal_044_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_044_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_045.tif'
+              mask: '{root}/{camelyon16}/masks/normal_045_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_045_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_049.tif'
+              mask: '{root}/{camelyon16}/masks/normal_049_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_049_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_050.tif'
+              mask: '{root}/{camelyon16}/masks/normal_050_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_050_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_051.tif'
+              mask: '{root}/{camelyon16}/masks/normal_051_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_051_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_052.tif'
+              mask: '{root}/{camelyon16}/masks/normal_052_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_052_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_053.tif'
+              mask: '{root}/{camelyon16}/masks/normal_053_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_053_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_056.tif'
+              mask: '{root}/{camelyon16}/masks/normal_056_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_056_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_057.tif'
+              mask: '{root}/{camelyon16}/masks/normal_057_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_057_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_058.tif'
+              mask: '{root}/{camelyon16}/masks/normal_058_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_058_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_060.tif'
+              mask: '{root}/{camelyon16}/masks/normal_060_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_060_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_061.tif'
+              mask: '{root}/{camelyon16}/masks/normal_061_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_061_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_062.tif'
+              mask: '{root}/{camelyon16}/masks/normal_062_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_062_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_063.tif'
+              mask: '{root}/{camelyon16}/masks/normal_063_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_063_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_064.tif'
+              mask: '{root}/{camelyon16}/masks/normal_064_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_064_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_065.tif'
+              mask: '{root}/{camelyon16}/masks/normal_065_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_065_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_067.tif'
+              mask: '{root}/{camelyon16}/masks/normal_067_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_067_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_068.tif'
+              mask: '{root}/{camelyon16}/masks/normal_068_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_068_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_069.tif'
+              mask: '{root}/{camelyon16}/masks/normal_069_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_069_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_070.tif'
+              mask: '{root}/{camelyon16}/masks/normal_070_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_070_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_071.tif'
+              mask: '{root}/{camelyon16}/masks/normal_071_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_071_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_073.tif'
+              mask: '{root}/{camelyon16}/masks/normal_073_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_073_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_075.tif'
+              mask: '{root}/{camelyon16}/masks/normal_075_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_075_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_076.tif'
+              mask: '{root}/{camelyon16}/masks/normal_076_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_076_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_077.tif'
+              mask: '{root}/{camelyon16}/masks/normal_077_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_077_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_078.tif'
+              mask: '{root}/{camelyon16}/masks/normal_078_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_078_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_079.tif'
+              mask: '{root}/{camelyon16}/masks/normal_079_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_079_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_080.tif'
+              mask: '{root}/{camelyon16}/masks/normal_080_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_080_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_082.tif'
+              mask: '{root}/{camelyon16}/masks/normal_082_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_082_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_083.tif'
+              mask: '{root}/{camelyon16}/masks/normal_083_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_083_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_084.tif'
+              mask: '{root}/{camelyon16}/masks/normal_084_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_084_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_085.tif'
+              mask: '{root}/{camelyon16}/masks/normal_085_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_085_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_087.tif'
+              mask: '{root}/{camelyon16}/masks/normal_087_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_087_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_088.tif'
+              mask: '{root}/{camelyon16}/masks/normal_088_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_088_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_089.tif'
+              mask: '{root}/{camelyon16}/masks/normal_089_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_089_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_090.tif'
+              mask: '{root}/{camelyon16}/masks/normal_090_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_090_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_091.tif'
+              mask: '{root}/{camelyon16}/masks/normal_091_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_091_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_092.tif'
+              mask: '{root}/{camelyon16}/masks/normal_092_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_092_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_093.tif'
+              mask: '{root}/{camelyon16}/masks/normal_093_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_093_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_094.tif'
+              mask: '{root}/{camelyon16}/masks/normal_094_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_094_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_095.tif'
+              mask: '{root}/{camelyon16}/masks/normal_095_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_095_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_096.tif'
+              mask: '{root}/{camelyon16}/masks/normal_096_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_096_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_097.tif'
+              mask: '{root}/{camelyon16}/masks/normal_097_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_097_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_098.tif'
+              mask: '{root}/{camelyon16}/masks/normal_098_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_098_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_099.tif'
+              mask: '{root}/{camelyon16}/masks/normal_099_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_099_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_100.tif'
+              mask: '{root}/{camelyon16}/masks/normal_100_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_100_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_144.tif'
+              mask: '{root}/{camelyon16}/masks/normal_144_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_144_mask{stamp}.stat'
+              labels: [1]
+        negative/breast/umcu:
+            - image: '{root}/{camelyon16}/images/normal_102.tif'
+              mask: '{root}/{camelyon16}/masks/normal_102_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_102_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_104.tif'
+              mask: '{root}/{camelyon16}/masks/normal_104_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_104_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_105.tif'
+              mask: '{root}/{camelyon16}/masks/normal_105_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_105_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_106.tif'
+              mask: '{root}/{camelyon16}/masks/normal_106_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_106_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_108.tif'
+              mask: '{root}/{camelyon16}/masks/normal_108_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_108_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_109.tif'
+              mask: '{root}/{camelyon16}/masks/normal_109_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_109_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_110.tif'
+              mask: '{root}/{camelyon16}/masks/normal_110_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_110_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_111.tif'
+              mask: '{root}/{camelyon16}/masks/normal_111_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_111_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_112.tif'
+              mask: '{root}/{camelyon16}/masks/normal_112_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_112_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_113.tif'
+              mask: '{root}/{camelyon16}/masks/normal_113_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_113_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_114.tif'
+              mask: '{root}/{camelyon16}/masks/normal_114_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_114_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_115.tif'
+              mask: '{root}/{camelyon16}/masks/normal_115_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_115_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_116.tif'
+              mask: '{root}/{camelyon16}/masks/normal_116_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_116_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_117.tif'
+              mask: '{root}/{camelyon16}/masks/normal_117_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_117_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_118.tif'
+              mask: '{root}/{camelyon16}/masks/normal_118_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_118_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_119.tif'
+              mask: '{root}/{camelyon16}/masks/normal_119_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_119_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_120.tif'
+              mask: '{root}/{camelyon16}/masks/normal_120_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_120_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_121.tif'
+              mask: '{root}/{camelyon16}/masks/normal_121_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_121_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_122.tif'
+              mask: '{root}/{camelyon16}/masks/normal_122_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_122_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_123.tif'
+              mask: '{root}/{camelyon16}/masks/normal_123_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_123_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_125.tif'
+              mask: '{root}/{camelyon16}/masks/normal_125_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_125_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_126.tif'
+              mask: '{root}/{camelyon16}/masks/normal_126_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_126_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_127.tif'
+              mask: '{root}/{camelyon16}/masks/normal_127_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_127_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_128.tif'
+              mask: '{root}/{camelyon16}/masks/normal_128_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_128_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_129.tif'
+              mask: '{root}/{camelyon16}/masks/normal_129_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_129_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_130.tif'
+              mask: '{root}/{camelyon16}/masks/normal_130_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_130_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_131.tif'
+              mask: '{root}/{camelyon16}/masks/normal_131_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_131_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_132.tif'
+              mask: '{root}/{camelyon16}/masks/normal_132_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_132_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_133.tif'
+              mask: '{root}/{camelyon16}/masks/normal_133_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_133_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_134.tif'
+              mask: '{root}/{camelyon16}/masks/normal_134_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_134_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_135.tif'
+              mask: '{root}/{camelyon16}/masks/normal_135_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_135_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_136.tif'
+              mask: '{root}/{camelyon16}/masks/normal_136_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_136_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_137.tif'
+              mask: '{root}/{camelyon16}/masks/normal_137_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_137_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_138.tif'
+              mask: '{root}/{camelyon16}/masks/normal_138_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_138_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_139.tif'
+              mask: '{root}/{camelyon16}/masks/normal_139_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_139_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_140.tif'
+              mask: '{root}/{camelyon16}/masks/normal_140_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_140_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_142.tif'
+              mask: '{root}/{camelyon16}/masks/normal_142_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_142_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_145.tif'
+              mask: '{root}/{camelyon16}/masks/normal_145_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_145_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_146.tif'
+              mask: '{root}/{camelyon16}/masks/normal_146_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_146_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_148.tif'
+              mask: '{root}/{camelyon16}/masks/normal_148_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_148_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_152.tif'
+              mask: '{root}/{camelyon16}/masks/normal_152_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_152_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_153.tif'
+              mask: '{root}/{camelyon16}/masks/normal_153_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_153_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_155.tif'
+              mask: '{root}/{camelyon16}/masks/normal_155_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_155_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_156.tif'
+              mask: '{root}/{camelyon16}/masks/normal_156_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_156_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_157.tif'
+              mask: '{root}/{camelyon16}/masks/normal_157_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_157_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_159.tif'
+              mask: '{root}/{camelyon16}/masks/normal_159_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_159_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_160.tif'
+              mask: '{root}/{camelyon16}/masks/normal_160_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_160_mask{stamp}.stat'
+              labels: [1]
+        micro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/tumor_002.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_002_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_002_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_003.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_003_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_003_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_005.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_005_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_005_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_007.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_007_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_007_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_008.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_008_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_008_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_012.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_012_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_012_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_013.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_013_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_013_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_017.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_017_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_017_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_022.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_022_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_022_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_024.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_024_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_024_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_027.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_027_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_027_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_028.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_028_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_028_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_030.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_030_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_030_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_035.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_035_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_035_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_036.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_036_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_036_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_040.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_040_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_040_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_041.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_041_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_041_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_043.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_043_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_043_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_045.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_045_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_045_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_048.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_048_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_048_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_049.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_049_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_049_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_050.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_050_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_050_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_053.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_053_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_053_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_060.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_060_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_060_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_062.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_062_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_062_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_063.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_063_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_063_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_065.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_065_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_065_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_066.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_066_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_066_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_067.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_067_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_067_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_070.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_070_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_070_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_111.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_111_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_111_mask{stamp}.stat'
+              labels: [1, 2]
+        micro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/tumor_073.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_073_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_073_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_077.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_077_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_077_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_081.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_081_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_081_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_083.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_083_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_083_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_086.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_086_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_086_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_087.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_087_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_087_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_093.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_093_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_093_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_098.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_098_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_098_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_100.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_100_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_100_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_106.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_106_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_106_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_107.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_107_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_107_mask{stamp}.stat'
+              labels: [1, 2]
+        macro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/tumor_004.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_004_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_004_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_009.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_009_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_009_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_010.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_010_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_010_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_011.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_011_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_011_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_014.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_014_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_014_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_015.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_015_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_015_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_018.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_018_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_018_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_020.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_020_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_020_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_021.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_021_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_021_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_025.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_025_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_025_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_029.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_029_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_029_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_031.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_031_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_031_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_033.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_033_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_033_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_034.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_034_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_034_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_037.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_037_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_037_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_038.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_038_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_038_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_044.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_044_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_044_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_046.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_046_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_046_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_047.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_047_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_047_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_051.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_051_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_051_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_054.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_054_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_054_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_055.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_055_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_055_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_056.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_056_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_056_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_058.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_058_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_058_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_061.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_061_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_061_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_064.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_064_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_064_mask{stamp}.stat'
+              labels: [1, 2]
+        macro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/tumor_074.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_074_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_074_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_076.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_076_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_076_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_078.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_078_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_078_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_079.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_079_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_079_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_082.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_082_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_082_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_084.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_084_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_084_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_085.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_085_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_085_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_089.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_089_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_089_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_090.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_090_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_090_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_091.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_091_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_091_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_092.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_092_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_092_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_094.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_094_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_094_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_095.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_095_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_095_mask{stamp}.stat'
+              labels: [2]
+            - image: '{root}/{camelyon16}/images/tumor_096.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_096_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_096_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_099.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_099_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_099_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_101.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_101_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_101_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_102.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_102_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_102_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_104.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_104_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_104_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_105.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_105_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_105_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_109.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_109_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_109_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_110.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_110_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_110_mask{stamp}.stat'
+              labels: [2]
+    validation:
+        negative/breast/rumc:
+            - image: '{root}/{camelyon16}/images/normal_011.tif'
+              mask: '{root}/{camelyon16}/masks/normal_011_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_011_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_016.tif'
+              mask: '{root}/{camelyon16}/masks/normal_016_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_016_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_023.tif'
+              mask: '{root}/{camelyon16}/masks/normal_023_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_023_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_026.tif'
+              mask: '{root}/{camelyon16}/masks/normal_026_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_026_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_031.tif'
+              mask: '{root}/{camelyon16}/masks/normal_031_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_031_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_033.tif'
+              mask: '{root}/{camelyon16}/masks/normal_033_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_033_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_035.tif'
+              mask: '{root}/{camelyon16}/masks/normal_035_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_035_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_037.tif'
+              mask: '{root}/{camelyon16}/masks/normal_037_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_037_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_038.tif'
+              mask: '{root}/{camelyon16}/masks/normal_038_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_038_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_041.tif'
+              mask: '{root}/{camelyon16}/masks/normal_041_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_041_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_046.tif'
+              mask: '{root}/{camelyon16}/masks/normal_046_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_046_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_047.tif'
+              mask: '{root}/{camelyon16}/masks/normal_047_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_047_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_048.tif'
+              mask: '{root}/{camelyon16}/masks/normal_048_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_048_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_054.tif'
+              mask: '{root}/{camelyon16}/masks/normal_054_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_054_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_055.tif'
+              mask: '{root}/{camelyon16}/masks/normal_055_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_055_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_059.tif'
+              mask: '{root}/{camelyon16}/masks/normal_059_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_059_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_066.tif'
+              mask: '{root}/{camelyon16}/masks/normal_066_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_066_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_072.tif'
+              mask: '{root}/{camelyon16}/masks/normal_072_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_072_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_074.tif'
+              mask: '{root}/{camelyon16}/masks/normal_074_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_074_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_081.tif'
+              mask: '{root}/{camelyon16}/masks/normal_081_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_081_mask{stamp}.stat'
+              labels: [1]
+        negative/breast/umcu:
+            - image: '{root}/{camelyon16}/images/normal_101.tif'
+              mask: '{root}/{camelyon16}/masks/normal_101_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_101_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_103.tif'
+              mask: '{root}/{camelyon16}/masks/normal_103_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_103_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_107.tif'
+              mask: '{root}/{camelyon16}/masks/normal_107_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_107_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_124.tif'
+              mask: '{root}/{camelyon16}/masks/normal_124_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_124_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_141.tif'
+              mask: '{root}/{camelyon16}/masks/normal_141_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_141_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_143.tif'
+              mask: '{root}/{camelyon16}/masks/normal_143_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_143_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_147.tif'
+              mask: '{root}/{camelyon16}/masks/normal_147_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_147_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_149.tif'
+              mask: '{root}/{camelyon16}/masks/normal_149_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_149_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_150.tif'
+              mask: '{root}/{camelyon16}/masks/normal_150_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_150_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_151.tif'
+              mask: '{root}/{camelyon16}/masks/normal_151_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_151_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_154.tif'
+              mask: '{root}/{camelyon16}/masks/normal_154_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_154_mask{stamp}.stat'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/normal_158.tif'
+              mask: '{root}/{camelyon16}/masks/normal_158_mask.tif'
+              stat: '{root}/{camelyon16}/stats/normal_158_mask{stamp}.stat'
+              labels: [1]
+        micro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/tumor_001.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_001_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_001_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_006.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_006_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_006_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_019.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_019_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_019_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_023.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_023_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_023_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_032.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_032_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_032_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_057.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_057_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_057_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_059.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_059_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_059_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_069.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_069_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_069_mask{stamp}.stat'
+              labels: [1, 2]
+        micro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/tumor_080.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_080_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_080_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_097.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_097_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_097_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_103.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_103_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_103_mask{stamp}.stat'
+              labels: [1, 2]
+        macro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/tumor_016.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_016_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_016_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_026.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_026_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_026_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_039.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_039_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_039_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_042.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_042_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_042_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_052.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_052_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_052_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_068.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_068_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_068_mask{stamp}.stat'
+              labels: [1, 2]
+        macro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/tumor_071.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_071_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_071_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_072.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_072_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_072_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_075.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_075_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_075_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_088.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_088_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_088_mask{stamp}.stat'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/tumor_108.tif'
+              mask: '{root}/{camelyon16}/masks/tumor_108_mask.tif'
+              stat: '{root}/{camelyon16}/stats/tumor_108_mask{stamp}.stat'
+              labels: [1, 2]
+    testing:
+        negative/breast/rumc:
+            - image: '{root}/{camelyon16}/images/test_003.tif'
+              mask: '{root}/{camelyon16}/masks/test_003_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_005.tif'
+              mask: '{root}/{camelyon16}/masks/test_005_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_006.tif'
+              mask: '{root}/{camelyon16}/masks/test_006_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_007.tif'
+              mask: '{root}/{camelyon16}/masks/test_007_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_009.tif'
+              mask: '{root}/{camelyon16}/masks/test_009_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_015.tif'
+              mask: '{root}/{camelyon16}/masks/test_015_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_017.tif'
+              mask: '{root}/{camelyon16}/masks/test_017_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_020.tif'
+              mask: '{root}/{camelyon16}/masks/test_020_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_023.tif'
+              mask: '{root}/{camelyon16}/masks/test_023_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_024.tif'
+              mask: '{root}/{camelyon16}/masks/test_024_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_025.tif'
+              mask: '{root}/{camelyon16}/masks/test_025_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_032.tif'
+              mask: '{root}/{camelyon16}/masks/test_032_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_035.tif'
+              mask: '{root}/{camelyon16}/masks/test_035_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_036.tif'
+              mask: '{root}/{camelyon16}/masks/test_036_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_039.tif'
+              mask: '{root}/{camelyon16}/masks/test_039_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_043.tif'
+              mask: '{root}/{camelyon16}/masks/test_043_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_045.tif'
+              mask: '{root}/{camelyon16}/masks/test_045_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_050.tif'
+              mask: '{root}/{camelyon16}/masks/test_050_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_053.tif'
+              mask: '{root}/{camelyon16}/masks/test_053_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_054.tif'
+              mask: '{root}/{camelyon16}/masks/test_054_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_056.tif'
+              mask: '{root}/{camelyon16}/masks/test_056_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_057.tif'
+              mask: '{root}/{camelyon16}/masks/test_057_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_059.tif'
+              mask: '{root}/{camelyon16}/masks/test_059_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_060.tif'
+              mask: '{root}/{camelyon16}/masks/test_060_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_067.tif'
+              mask: '{root}/{camelyon16}/masks/test_067_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_070.tif'
+              mask: '{root}/{camelyon16}/masks/test_070_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_072.tif'
+              mask: '{root}/{camelyon16}/masks/test_072_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_076.tif'
+              mask: '{root}/{camelyon16}/masks/test_076_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_081.tif'
+              mask: '{root}/{camelyon16}/masks/test_081_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_083.tif'
+              mask: '{root}/{camelyon16}/masks/test_083_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_085.tif'
+              mask: '{root}/{camelyon16}/masks/test_085_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_087.tif'
+              mask: '{root}/{camelyon16}/masks/test_087_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_088.tif'
+              mask: '{root}/{camelyon16}/masks/test_088_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_091.tif'
+              mask: '{root}/{camelyon16}/masks/test_091_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_093.tif'
+              mask: '{root}/{camelyon16}/masks/test_093_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_096.tif'
+              mask: '{root}/{camelyon16}/masks/test_096_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_100.tif'
+              mask: '{root}/{camelyon16}/masks/test_100_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_103.tif'
+              mask: '{root}/{camelyon16}/masks/test_103_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_106.tif'
+              mask: '{root}/{camelyon16}/masks/test_106_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_107.tif'
+              mask: '{root}/{camelyon16}/masks/test_107_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_111.tif'
+              mask: '{root}/{camelyon16}/masks/test_111_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_112.tif'
+              mask: '{root}/{camelyon16}/masks/test_112_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_115.tif'
+              mask: '{root}/{camelyon16}/masks/test_115_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_118.tif'
+              mask: '{root}/{camelyon16}/masks/test_118_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_119.tif'
+              mask: '{root}/{camelyon16}/masks/test_119_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_123.tif'
+              mask: '{root}/{camelyon16}/masks/test_123_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_124.tif'
+              mask: '{root}/{camelyon16}/masks/test_124_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_126.tif'
+              mask: '{root}/{camelyon16}/masks/test_126_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_129.tif'
+              mask: '{root}/{camelyon16}/masks/test_129_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_130.tif'
+              mask: '{root}/{camelyon16}/masks/test_130_mask.tif'
+              labels: [1]
+        negative/breast/umcu:
+            - image: '{root}/{camelyon16}/images/test_012.tif'
+              mask: '{root}/{camelyon16}/masks/test_012_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_014.tif'
+              mask: '{root}/{camelyon16}/masks/test_014_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_018.tif'
+              mask: '{root}/{camelyon16}/masks/test_018_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_019.tif'
+              mask: '{root}/{camelyon16}/masks/test_019_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_022.tif'
+              mask: '{root}/{camelyon16}/masks/test_022_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_028.tif'
+              mask: '{root}/{camelyon16}/masks/test_028_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_031.tif'
+              mask: '{root}/{camelyon16}/masks/test_031_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_034.tif'
+              mask: '{root}/{camelyon16}/masks/test_034_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_037.tif'
+              mask: '{root}/{camelyon16}/masks/test_037_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_041.tif'
+              mask: '{root}/{camelyon16}/masks/test_041_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_042.tif'
+              mask: '{root}/{camelyon16}/masks/test_042_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_044.tif'
+              mask: '{root}/{camelyon16}/masks/test_044_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_047.tif'
+              mask: '{root}/{camelyon16}/masks/test_047_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_055.tif'
+              mask: '{root}/{camelyon16}/masks/test_055_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_058.tif'
+              mask: '{root}/{camelyon16}/masks/test_058_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_062.tif'
+              mask: '{root}/{camelyon16}/masks/test_062_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_063.tif'
+              mask: '{root}/{camelyon16}/masks/test_063_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_077.tif'
+              mask: '{root}/{camelyon16}/masks/test_077_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_078.tif'
+              mask: '{root}/{camelyon16}/masks/test_078_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_080.tif'
+              mask: '{root}/{camelyon16}/masks/test_080_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_086.tif'
+              mask: '{root}/{camelyon16}/masks/test_086_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_089.tif'
+              mask: '{root}/{camelyon16}/masks/test_089_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_095.tif'
+              mask: '{root}/{camelyon16}/masks/test_095_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_098.tif'
+              mask: '{root}/{camelyon16}/masks/test_098_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_101.tif'
+              mask: '{root}/{camelyon16}/masks/test_101_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_109.tif'
+              mask: '{root}/{camelyon16}/masks/test_109_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_120.tif'
+              mask: '{root}/{camelyon16}/masks/test_120_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_125.tif'
+              mask: '{root}/{camelyon16}/masks/test_125_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_127.tif'
+              mask: '{root}/{camelyon16}/masks/test_127_mask.tif'
+              labels: [1]
+            - image: '{root}/{camelyon16}/images/test_128.tif'
+              mask: '{root}/{camelyon16}/masks/test_128_mask.tif'
+              labels: [1]
+        micro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/test_010.tif'
+              mask: '{root}/{camelyon16}/masks/test_010_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_011.tif'
+              mask: '{root}/{camelyon16}/masks/test_011_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_013.tif'
+              mask: '{root}/{camelyon16}/masks/test_013_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_029.tif'
+              mask: '{root}/{camelyon16}/masks/test_029_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_038.tif'
+              mask: '{root}/{camelyon16}/masks/test_038_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_052.tif'
+              mask: '{root}/{camelyon16}/masks/test_052_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_064.tif'
+              mask: '{root}/{camelyon16}/masks/test_064_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_074.tif'
+              mask: '{root}/{camelyon16}/masks/test_074_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_097.tif'
+              mask: '{root}/{camelyon16}/masks/test_097_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_108.tif'
+              mask: '{root}/{camelyon16}/masks/test_108_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_117.tif'
+              mask: '{root}/{camelyon16}/masks/test_117_mask.tif'
+              labels: [1, 2]
+        micro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/test_004.tif'
+              mask: '{root}/{camelyon16}/masks/test_004_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_008.tif'
+              mask: '{root}/{camelyon16}/masks/test_008_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_033.tif'
+              mask: '{root}/{camelyon16}/masks/test_033_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_046.tif'
+              mask: '{root}/{camelyon16}/masks/test_046_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_048.tif'
+              mask: '{root}/{camelyon16}/masks/test_048_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_065.tif'
+              mask: '{root}/{camelyon16}/masks/test_065_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_066.tif'
+              mask: '{root}/{camelyon16}/masks/test_066_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_069.tif'
+              mask: '{root}/{camelyon16}/masks/test_069_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_079.tif'
+              mask: '{root}/{camelyon16}/masks/test_079_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_084.tif'
+              mask: '{root}/{camelyon16}/masks/test_084_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_092.tif'
+              mask: '{root}/{camelyon16}/masks/test_092_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_099.tif'
+              mask: '{root}/{camelyon16}/masks/test_099_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_102.tif'
+              mask: '{root}/{camelyon16}/masks/test_102_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_110.tif'
+              mask: '{root}/{camelyon16}/masks/test_110_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_116.tif'
+              mask: '{root}/{camelyon16}/masks/test_116_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_122.tif'
+              mask: '{root}/{camelyon16}/masks/test_122_mask.tif'
+              labels: [1, 2]
+        macro/breast/rumc:
+            - image: '{root}/{camelyon16}/images/test_002.tif'
+              mask: '{root}/{camelyon16}/masks/test_002_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_021.tif'
+              mask: '{root}/{camelyon16}/masks/test_021_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_027.tif'
+              mask: '{root}/{camelyon16}/masks/test_027_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_030.tif'
+              mask: '{root}/{camelyon16}/masks/test_030_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_040.tif'
+              mask: '{root}/{camelyon16}/masks/test_040_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_051.tif'
+              mask: '{root}/{camelyon16}/masks/test_051_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_061.tif'
+              mask: '{root}/{camelyon16}/masks/test_061_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_068.tif'
+              mask: '{root}/{camelyon16}/masks/test_068_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_075.tif'
+              mask: '{root}/{camelyon16}/masks/test_075_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_082.tif'
+              mask: '{root}/{camelyon16}/masks/test_082_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_090.tif'
+              mask: '{root}/{camelyon16}/masks/test_090_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_104.tif'
+              mask: '{root}/{camelyon16}/masks/test_104_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_121.tif'
+              mask: '{root}/{camelyon16}/masks/test_121_mask.tif'
+              labels: [1, 2]
+        macro/breast/umcu:
+            - image: '{root}/{camelyon16}/images/test_001.tif'
+              mask: '{root}/{camelyon16}/masks/test_001_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_016.tif'
+              mask: '{root}/{camelyon16}/masks/test_016_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_026.tif'
+              mask: '{root}/{camelyon16}/masks/test_026_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_071.tif'
+              mask: '{root}/{camelyon16}/masks/test_071_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_073.tif'
+              mask: '{root}/{camelyon16}/masks/test_073_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_094.tif'
+              mask: '{root}/{camelyon16}/masks/test_094_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_105.tif'
+              mask: '{root}/{camelyon16}/masks/test_105_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_113.tif'
+              mask: '{root}/{camelyon16}/masks/test_113_mask.tif'
+              labels: [1, 2]
+            - image: '{root}/{camelyon16}/images/test_114.tif'
+              mask: '{root}/{camelyon16}/masks/test_114_mask.tif'
+              labels: [1, 2]

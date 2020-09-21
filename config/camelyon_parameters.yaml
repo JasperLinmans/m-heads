@@ -1,0 +1,174 @@
+# This is the model configuration section. All the parameters will be passed to a new model instance. See ExperimentCommander.__constructnetwork member function
+# for the exact list of parameters that are parsed.
+#
+model:
+    backend: 'pytorch'                                              # Select the backend to use. Currently Keras and Lasagne backends are supported.
+    type: 'mheads'                                                  # This identifies what model should the framework instantiate. Currently supported: 'naturenet', 'fcnn' and 'unet'.
+    name: 'mheads-model'                                                  # Arbitrary name that will be stored in the model. Its purpose is to help to identify the trained model.
+    description: 'multi head uncertainty estimation for Camelyon.'  # Arbitrary description that will be stored in the model.
+
+    # Parameters only applicable to densenet models.
+    #
+    backbone: 'densenet'
+    layers per block: [4, 4, 4]
+    growth rate: 32
+    reduction: 0.5
+    num classes: 2
+    bottleneck: True
+    valid padding: True
+    pool initial: True
+    pool final: False
+    bottleneck rate: 2
+
+    num heads: 10
+    head depth: 4
+    mhead eps: 0.05
+    mhead random: 0.01
+
+    dropout rate: 0.1
+    optimizer mom: 0.9
+    optimizer wd: 0.0 #0.0001
+    optimizer type: 'adam'
+    learning rate: 0.0001
+        
+    input shape: [3, 279, 279]
+    validation fraction: 0.1
+    epochs: 50
+    cifar5 seed: 0
+    learning rate scheme: {30: 0.00001, 40: 0.000001}
+
+    mc samples: 128
+   
+    ensemble mode: 'single'
+    num members: 15
+    specific member: 0
+
+system:
+    process count: 2.0
+    sampler count: 108
+    multi-threaded: true
+    ipc chunk size: 10000
+    join timeout secs: 30
+    response timeout secs: 1800
+    poll timeout secs: 1800
+training:
+    epoch count: 50
+    metric name: 'loss'
+    higher is better: false
+    averaging length: 4
+    source step length: 1
+    iteration log percent: 0.2
+    buffer chunk size: 10000
+    learning:
+        learning rate: 0.0001
+        learning rate decay:
+            enabled: true
+            update factor: 0.1
+            plateau length: 4
+        stop plateau:
+            enabled: true
+            plateau length: 20
+    boosting:
+        enabled: false
+        buffer mode switch: 50
+        difficult threshold: 0.5
+        difficult update ratio: 0.5
+    iterations:
+        training:
+            repetition count: 8
+            iteration count: 256
+            batch size: 128
+        validation:
+            repetition count: 8
+            iteration count: 256
+            batch size: 128
+data:
+    images:
+        patch shapes:
+            0.5: [279, 279]
+        channels: [0, 1, 2]
+    labels:
+        label mode: 'central'
+        training:
+            mask pixel spacing: 2.0
+            label map:
+                1: 0
+                2: 1
+            label ratios:
+                1: 80
+                2: 20
+            strict selection: true
+        validation:
+            mask pixel spacing: 2.0
+            label map:
+                1: 0
+                2: 1
+            label ratios:
+                1: 80
+                2: 20
+            strict selection: true
+        one hot: false
+        early: false
+    spacing tolerance: 0.25
+    color normalization:
+        enabled: range
+    range normalization:
+        enabled: true
+        early: false
+        type: 'rgb to 0-1'
+    weight mapping:
+        enabled: false
+        early: false
+    categories:
+        negative/breast/rumc: 1.0
+        negative/breast/umcu: 1.0
+        micro/breast/rumc: 1.0
+        micro/breast/umcu: 1.0
+        macro/breast/rumc: 1.0
+        macro/breast/umcu: 1.0
+    purposes:
+        training: 216
+        validation: 54
+    resources:
+        processes:
+            training: 1.0
+            validation: 1.0
+        samplers:
+            training: 1.0
+            validation: 1.0
+augmentation:
+    training:
+        - group: 'spatial'
+          random: false
+          items:
+              - type: 'flip'
+                probability: 1.0
+                flips: ['none', 'horizontal']
+              - type: 'rotate_90'
+                probability: 1.0
+                rotations: [0, 1, 2, 3]
+              # - type: 'scale' # If we want to use this, we need to resample patches of size 310x310
+              #   probability: 1.0
+              #   scaling: [0.9, 1.1]
+              #   order: 1
+        - group: 'color'
+          random: false
+          items:
+              - type: 'hsb_color'
+                probability: 1.0
+                hue: [-0.1, 0.1]
+                saturation: [-0.25, 0.25]
+                brightness: [-0.25, 0.25]
+              - type: 'contrast'
+                probability: 1.0
+                sigma: [-0.25, 0.25]
+        - group: 'noise'
+          random: false
+          items:
+              - type: 'additive'
+                probability: 1.0
+                sigma: [0.0, 0.05]
+              - type: 'blur'
+                probability: 1.0
+                sigma: [0.0, 1.0]
+
